@@ -1,0 +1,28 @@
+{
+  "name": "app-mrwhite",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Mini-application Mr White du portail familial",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "famille-core": "git+https://github.com/RobinStGeorges/famille-core.git#v0.1.1",
+    "firebase": "^13.3.0"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "jsdom": "^31.0.0",
+    "svelte": "^5.57.3",
+    "svelte-check": "^4.7.8",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.8",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.1.0"
+  }
+}

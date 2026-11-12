@@ -1,0 +1,2001 @@
+{
+ "version": 1,
+ "categories": [
+  {
+   "id": "nourriture",
+   "label": "Nourriture"
+  },
+  {
+   "id": "boissons",
+   "label": "Boissons"
+  },
+  {
+   "id": "animaux",
+   "label": "Animaux"
+  },
+  {
+   "id": "maison",
+   "label": "Maison & objets"
+  },
+  {
+   "id": "vetements",
+   "label": "Vêtements"
+  },
+  {
+   "id": "lieux",
+   "label": "Lieux"
+  },
+  {
+   "id": "transports",
+   "label": "Transports"
+  },
+  {
+   "id": "metiers",
+   "label": "Métiers"
+  },
+  {
+   "id": "loisirs",
+   "label": "Sports & loisirs"
+  },
+  {
+   "id": "nature",
+   "label": "Nature"
+  },
+  {
+   "id": "culture",
+   "label": "Culture & marques"
+  },
+  {
+   "id": "vie",
+   "label": "Vie quotidienne"
+  }
+ ],
+ "pairs": [
+  {
+   "id": "pizza--quiche",
+   "a": "Pizza",
+   "b": "Quiche",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "croissant--pain-au-chocolat",
+   "a": "Croissant",
+   "b": "Pain au chocolat",
+   "categorie": "nourriture",
+   "niveau": 1
+  },
+  {
+   "id": "baguette--ficelle",
+   "a": "Baguette",
+   "b": "Ficelle",
+   "categorie": "nourriture",
+   "niveau": 3
+  },
+  {
+   "id": "camembert--brie",
+   "a": "Camembert",
+   "b": "Brie",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "crepe--galette",
+   "a": "Crêpe",
+   "b": "Galette",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "gaufre--crepe",
+   "a": "Gaufre",
+   "b": "Crêpe",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "hamburger--cheeseburger",
+   "a": "Hamburger",
+   "b": "Cheeseburger",
+   "categorie": "nourriture",
+   "niveau": 3
+  },
+  {
+   "id": "sushi--maki",
+   "a": "Sushi",
+   "b": "Maki",
+   "categorie": "nourriture",
+   "niveau": 3
+  },
+  {
+   "id": "spaghetti--tagliatelles",
+   "a": "Spaghetti",
+   "b": "Tagliatelles",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "lasagnes--cannelloni",
+   "a": "Lasagnes",
+   "b": "Cannelloni",
+   "categorie": "nourriture",
+   "niveau": 3
+  },
+  {
+   "id": "frites--chips",
+   "a": "Frites",
+   "b": "Chips",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "pomme--poire",
+   "a": "Pomme",
+   "b": "Poire",
+   "categorie": "nourriture",
+   "niveau": 1
+  },
+  {
+   "id": "fraise--framboise",
+   "a": "Fraise",
+   "b": "Framboise",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "orange--mandarine",
+   "a": "Orange",
+   "b": "Mandarine",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "citron--citron-vert",
+   "a": "Citron",
+   "b": "Citron vert",
+   "categorie": "nourriture",
+   "niveau": 3
+  },
+  {
+   "id": "tomate--poivron",
+   "a": "Tomate",
+   "b": "Poivron",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "carotte--navet",
+   "a": "Carotte",
+   "b": "Navet",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "concombre--courgette",
+   "a": "Concombre",
+   "b": "Courgette",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "oignon--echalote",
+   "a": "Oignon",
+   "b": "Échalote",
+   "categorie": "nourriture",
+   "niveau": 3
+  },
+  {
+   "id": "miel--confiture",
+   "a": "Miel",
+   "b": "Confiture",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "beurre--margarine",
+   "a": "Beurre",
+   "b": "Margarine",
+   "categorie": "nourriture",
+   "niveau": 3
+  },
+  {
+   "id": "yaourt--fromage-blanc",
+   "a": "Yaourt",
+   "b": "Fromage blanc",
+   "categorie": "nourriture",
+   "niveau": 3
+  },
+  {
+   "id": "glace--sorbet",
+   "a": "Glace",
+   "b": "Sorbet",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "gateau--tarte",
+   "a": "Gâteau",
+   "b": "Tarte",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "chocolat-noir--chocolat-au-lait",
+   "a": "Chocolat noir",
+   "b": "Chocolat au lait",
+   "categorie": "nourriture",
+   "niveau": 3
+  },
+  {
+   "id": "bonbon--chewing-gum",
+   "a": "Bonbon",
+   "b": "Chewing-gum",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "cacahuete--noisette",
+   "a": "Cacahuète",
+   "b": "Noisette",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "noix--amande",
+   "a": "Noix",
+   "b": "Amande",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "saucisse--merguez",
+   "a": "Saucisse",
+   "b": "Merguez",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "jambon--saucisson",
+   "a": "Jambon",
+   "b": "Saucisson",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "steak--escalope",
+   "a": "Steak",
+   "b": "Escalope",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "poulet--dinde",
+   "a": "Poulet",
+   "b": "Dinde",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "saumon--truite",
+   "a": "Saumon",
+   "b": "Truite",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "moule--huitre",
+   "a": "Moule",
+   "b": "Huître",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "riz--semoule",
+   "a": "Riz",
+   "b": "Semoule",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "pomme-de-terre--patate-douce",
+   "a": "Pomme de terre",
+   "b": "Patate douce",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "brioche--pain-d-epices",
+   "a": "Brioche",
+   "b": "Pain d'épices",
+   "categorie": "nourriture",
+   "niveau": 2
+  },
+  {
+   "id": "eclair--religieuse",
+   "a": "Éclair",
+   "b": "Religieuse",
+   "categorie": "nourriture",
+   "niveau": 3
+  },
+  {
+   "id": "macaron--meringue",
+   "a": "Macaron",
+   "b": "Meringue",
+   "categorie": "nourriture",
+   "niveau": 3
+  },
+  {
+   "id": "raclette--fondue",
+   "a": "Raclette",
+   "b": "Fondue",
+   "categorie": "nourriture",
+   "niveau": 1
+  },
+  {
+   "id": "cafe--chocolat-chaud",
+   "a": "Café",
+   "b": "Chocolat chaud",
+   "categorie": "boissons",
+   "niveau": 2
+  },
+  {
+   "id": "cola--limonade",
+   "a": "Cola",
+   "b": "Limonade",
+   "categorie": "boissons",
+   "niveau": 2
+  },
+  {
+   "id": "vin--champagne",
+   "a": "Vin",
+   "b": "Champagne",
+   "categorie": "boissons",
+   "niveau": 2
+  },
+  {
+   "id": "biere--cidre",
+   "a": "Bière",
+   "b": "Cidre",
+   "categorie": "boissons",
+   "niveau": 2
+  },
+  {
+   "id": "eau-plate--eau-gazeuse",
+   "a": "Eau plate",
+   "b": "Eau gazeuse",
+   "categorie": "boissons",
+   "niveau": 3
+  },
+  {
+   "id": "jus-d-orange--smoothie",
+   "a": "Jus d'orange",
+   "b": "Smoothie",
+   "categorie": "boissons",
+   "niveau": 2
+  },
+  {
+   "id": "whisky--rhum",
+   "a": "Whisky",
+   "b": "Rhum",
+   "categorie": "boissons",
+   "niveau": 2
+  },
+  {
+   "id": "lait--creme",
+   "a": "Lait",
+   "b": "Crème",
+   "categorie": "boissons",
+   "niveau": 2
+  },
+  {
+   "id": "the--tisane",
+   "a": "Thé",
+   "b": "Tisane",
+   "categorie": "boissons",
+   "niveau": 2
+  },
+  {
+   "id": "sirop--jus-de-fruit",
+   "a": "Sirop",
+   "b": "Jus de fruit",
+   "categorie": "boissons",
+   "niveau": 3
+  },
+  {
+   "id": "chat--lion",
+   "a": "Chat",
+   "b": "Lion",
+   "categorie": "animaux",
+   "niveau": 2
+  },
+  {
+   "id": "chien--loup",
+   "a": "Chien",
+   "b": "Loup",
+   "categorie": "animaux",
+   "niveau": 2
+  },
+  {
+   "id": "cheval--ane",
+   "a": "Cheval",
+   "b": "Âne",
+   "categorie": "animaux",
+   "niveau": 2
+  },
+  {
+   "id": "vache--taureau",
+   "a": "Vache",
+   "b": "Taureau",
+   "categorie": "animaux",
+   "niveau": 3
+  },
+  {
+   "id": "mouton--chevre",
+   "a": "Mouton",
+   "b": "Chèvre",
+   "categorie": "animaux",
+   "niveau": 2
+  },
+  {
+   "id": "cochon--sanglier",
+   "a": "Cochon",
+   "b": "Sanglier",
+   "categorie": "animaux",
+   "niveau": 2
+  },
+  {
+   "id": "lapin--lievre",
+   "a": "Lapin",
+   "b": "Lièvre",
+   "categorie": "animaux",
+   "niveau": 3
+  },
+  {
+   "id": "souris--hamster",
+   "a": "Souris",
+   "b": "Hamster",
+   "categorie": "animaux",
+   "niveau": 2
+  },
+  {
+   "id": "rat--souris",
+   "a": "Rat",
+   "b": "Souris",
+   "categorie": "animaux",
+   "niveau": 3
+  },
+  {
+   "id": "poule--canard",
+   "a": "Poule",
+   "b": "Canard",
+   "categorie": "animaux",
+   "niveau": 2
+  },
+  {
+   "id": "pigeon--moineau",
+   "a": "Pigeon",
+   "b": "Moineau",
+   "categorie": "animaux",
+   "niveau": 2
+  },
+  {
+   "id": "aigle--faucon",
+   "a": "Aigle",
+   "b": "Faucon",
+   "categorie": "animaux",
+   "niveau": 3
+  },
+  {
+   "id": "hibou--chouette",
+   "a": "Hibou",
+   "b": "Chouette",
+   "categorie": "animaux",
+   "niveau": 3
+  },
+  {
+   "id": "perroquet--perruche",
+   "a": "Perroquet",
+   "b": "Perruche",
+   "categorie": "animaux",
+   "niveau": 3
+  },
+  {
+   "id": "dauphin--requin",
+   "a": "Dauphin",
+   "b": "Requin",
+   "categorie": "animaux",
+   "niveau": 2
+  },
+  {
+   "id": "baleine--orque",
+   "a": "Baleine",
+   "b": "Orque",
+   "categorie": "animaux",
+   "niveau": 3
+  },
+  {
+   "id": "crocodile--alligator",
+   "a": "Crocodile",
+   "b": "Alligator",
+   "categorie": "animaux",
+   "niveau": 3
+  },
+  {
+   "id": "serpent--lezard",
+   "a": "Serpent",
+   "b": "Lézard",
+   "categorie": "animaux",
+   "niveau": 2
+  },
+  {
+   "id": "grenouille--crapaud",
+   "a": "Grenouille",
+   "b": "Crapaud",
+   "categorie": "animaux",
+   "niveau": 3
+  },
+  {
+   "id": "papillon--libellule",
+   "a": "Papillon",
+   "b": "Libellule",
+   "categorie": "animaux",
+   "niveau": 2
+  },
+  {
+   "id": "abeille--guepe",
+   "a": "Abeille",
+   "b": "Guêpe",
+   "categorie": "animaux",
+   "niveau": 3
+  },
+  {
+   "id": "moustique--mouche",
+   "a": "Moustique",
+   "b": "Mouche",
+   "categorie": "animaux",
+   "niveau": 2
+  },
+  {
+   "id": "fourmi--termite",
+   "a": "Fourmi",
+   "b": "Termite",
+   "categorie": "animaux",
+   "niveau": 3
+  },
+  {
+   "id": "escargot--limace",
+   "a": "Escargot",
+   "b": "Limace",
+   "categorie": "animaux",
+   "niveau": 3
+  },
+  {
+   "id": "ours--panda",
+   "a": "Ours",
+   "b": "Panda",
+   "categorie": "animaux",
+   "niveau": 2
+  },
+  {
+   "id": "singe--gorille",
+   "a": "Singe",
+   "b": "Gorille",
+   "categorie": "animaux",
+   "niveau": 3
+  },
+  {
+   "id": "girafe--zebre",
+   "a": "Girafe",
+   "b": "Zèbre",
+   "categorie": "animaux",
+   "niveau": 2
+  },
+  {
+   "id": "elephant--rhinoceros",
+   "a": "Éléphant",
+   "b": "Rhinocéros",
+   "categorie": "animaux",
+   "niveau": 2
+  },
+  {
+   "id": "kangourou--koala",
+   "a": "Kangourou",
+   "b": "Koala",
+   "categorie": "animaux",
+   "niveau": 2
+  },
+  {
+   "id": "pingouin--manchot",
+   "a": "Pingouin",
+   "b": "Manchot",
+   "categorie": "animaux",
+   "niveau": 3
+  },
+  {
+   "id": "phoque--otarie",
+   "a": "Phoque",
+   "b": "Otarie",
+   "categorie": "animaux",
+   "niveau": 3
+  },
+  {
+   "id": "renard--loup",
+   "a": "Renard",
+   "b": "Loup",
+   "categorie": "animaux",
+   "niveau": 2
+  },
+  {
+   "id": "stylo--crayon",
+   "a": "Stylo",
+   "b": "Crayon",
+   "categorie": "maison",
+   "niveau": 1
+  },
+  {
+   "id": "gomme--correcteur",
+   "a": "Gomme",
+   "b": "Correcteur",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "cahier--carnet",
+   "a": "Cahier",
+   "b": "Carnet",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "livre--magazine",
+   "a": "Livre",
+   "b": "Magazine",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "table--bureau",
+   "a": "Table",
+   "b": "Bureau",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "chaise--tabouret",
+   "a": "Chaise",
+   "b": "Tabouret",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "canape--fauteuil",
+   "a": "Canapé",
+   "b": "Fauteuil",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "lampe--bougie",
+   "a": "Lampe",
+   "b": "Bougie",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "miroir--fenetre",
+   "a": "Miroir",
+   "b": "Fenêtre",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "tapis--moquette",
+   "a": "Tapis",
+   "b": "Moquette",
+   "categorie": "maison",
+   "niveau": 3
+  },
+  {
+   "id": "rideau--store",
+   "a": "Rideau",
+   "b": "Store",
+   "categorie": "maison",
+   "niveau": 3
+  },
+  {
+   "id": "oreiller--coussin",
+   "a": "Oreiller",
+   "b": "Coussin",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "couverture--couette",
+   "a": "Couverture",
+   "b": "Couette",
+   "categorie": "maison",
+   "niveau": 3
+  },
+  {
+   "id": "fourchette--cuillere",
+   "a": "Fourchette",
+   "b": "Cuillère",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "couteau--ciseaux",
+   "a": "Couteau",
+   "b": "Ciseaux",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "assiette--bol",
+   "a": "Assiette",
+   "b": "Bol",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "verre--tasse",
+   "a": "Verre",
+   "b": "Tasse",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "casserole--poele",
+   "a": "Casserole",
+   "b": "Poêle",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "four--micro-ondes",
+   "a": "Four",
+   "b": "Micro-ondes",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "frigo--congelateur",
+   "a": "Frigo",
+   "b": "Congélateur",
+   "categorie": "maison",
+   "niveau": 3
+  },
+  {
+   "id": "lave-linge--lave-vaisselle",
+   "a": "Lave-linge",
+   "b": "Lave-vaisselle",
+   "categorie": "maison",
+   "niveau": 3
+  },
+  {
+   "id": "aspirateur--balai",
+   "a": "Aspirateur",
+   "b": "Balai",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "telephone--tablette",
+   "a": "Téléphone",
+   "b": "Tablette",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "ordinateur--television",
+   "a": "Ordinateur",
+   "b": "Télévision",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "montre--reveil",
+   "a": "Montre",
+   "b": "Réveil",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "cle--cadenas",
+   "a": "Clé",
+   "b": "Cadenas",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "sac-a-dos--valise",
+   "a": "Sac à dos",
+   "b": "Valise",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "parapluie--parasol",
+   "a": "Parapluie",
+   "b": "Parasol",
+   "categorie": "maison",
+   "niveau": 3
+  },
+  {
+   "id": "lunettes--jumelles",
+   "a": "Lunettes",
+   "b": "Jumelles",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "brosse-a-dents--brosse-a-cheveux",
+   "a": "Brosse à dents",
+   "b": "Brosse à cheveux",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "savon--shampoing",
+   "a": "Savon",
+   "b": "Shampoing",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "peigne--brosse",
+   "a": "Peigne",
+   "b": "Brosse",
+   "categorie": "maison",
+   "niveau": 3
+  },
+  {
+   "id": "rasoir--tondeuse",
+   "a": "Rasoir",
+   "b": "Tondeuse",
+   "categorie": "maison",
+   "niveau": 3
+  },
+  {
+   "id": "marteau--tournevis",
+   "a": "Marteau",
+   "b": "Tournevis",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "scie--perceuse",
+   "a": "Scie",
+   "b": "Perceuse",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "echelle--escabeau",
+   "a": "Échelle",
+   "b": "Escabeau",
+   "categorie": "maison",
+   "niveau": 3
+  },
+  {
+   "id": "poubelle--corbeille",
+   "a": "Poubelle",
+   "b": "Corbeille",
+   "categorie": "maison",
+   "niveau": 3
+  },
+  {
+   "id": "baignoire--douche",
+   "a": "Baignoire",
+   "b": "Douche",
+   "categorie": "maison",
+   "niveau": 2
+  },
+  {
+   "id": "serviette--gant-de-toilette",
+   "a": "Serviette",
+   "b": "Gant de toilette",
+   "categorie": "maison",
+   "niveau": 3
+  },
+  {
+   "id": "pull--gilet",
+   "a": "Pull",
+   "b": "Gilet",
+   "categorie": "vetements",
+   "niveau": 3
+  },
+  {
+   "id": "jean--pantalon",
+   "a": "Jean",
+   "b": "Pantalon",
+   "categorie": "vetements",
+   "niveau": 3
+  },
+  {
+   "id": "short--bermuda",
+   "a": "Short",
+   "b": "Bermuda",
+   "categorie": "vetements",
+   "niveau": 3
+  },
+  {
+   "id": "jupe--robe",
+   "a": "Jupe",
+   "b": "Robe",
+   "categorie": "vetements",
+   "niveau": 2
+  },
+  {
+   "id": "chaussette--collant",
+   "a": "Chaussette",
+   "b": "Collant",
+   "categorie": "vetements",
+   "niveau": 3
+  },
+  {
+   "id": "bottes--baskets",
+   "a": "Bottes",
+   "b": "Baskets",
+   "categorie": "vetements",
+   "niveau": 2
+  },
+  {
+   "id": "casquette--bonnet",
+   "a": "Casquette",
+   "b": "Bonnet",
+   "categorie": "vetements",
+   "niveau": 2
+  },
+  {
+   "id": "echarpe--foulard",
+   "a": "Écharpe",
+   "b": "Foulard",
+   "categorie": "vetements",
+   "niveau": 3
+  },
+  {
+   "id": "manteau--veste",
+   "a": "Manteau",
+   "b": "Veste",
+   "categorie": "vetements",
+   "niveau": 3
+  },
+  {
+   "id": "cravate--n-ud-papillon",
+   "a": "Cravate",
+   "b": "Nœud papillon",
+   "categorie": "vetements",
+   "niveau": 2
+  },
+  {
+   "id": "gants--moufles",
+   "a": "Gants",
+   "b": "Moufles",
+   "categorie": "vetements",
+   "niveau": 3
+  },
+  {
+   "id": "sandales--tongs",
+   "a": "Sandales",
+   "b": "Tongs",
+   "categorie": "vetements",
+   "niveau": 3
+  },
+  {
+   "id": "pyjama--peignoir",
+   "a": "Pyjama",
+   "b": "Peignoir",
+   "categorie": "vetements",
+   "niveau": 2
+  },
+  {
+   "id": "plage--piscine",
+   "a": "Plage",
+   "b": "Piscine",
+   "categorie": "lieux",
+   "niveau": 2
+  },
+  {
+   "id": "montagne--colline",
+   "a": "Montagne",
+   "b": "Colline",
+   "categorie": "lieux",
+   "niveau": 2
+  },
+  {
+   "id": "foret--jardin",
+   "a": "Forêt",
+   "b": "Jardin",
+   "categorie": "lieux",
+   "niveau": 2
+  },
+  {
+   "id": "lac--etang",
+   "a": "Lac",
+   "b": "Étang",
+   "categorie": "lieux",
+   "niveau": 3
+  },
+  {
+   "id": "riviere--fleuve",
+   "a": "Rivière",
+   "b": "Fleuve",
+   "categorie": "lieux",
+   "niveau": 3
+  },
+  {
+   "id": "mer--ocean",
+   "a": "Mer",
+   "b": "Océan",
+   "categorie": "lieux",
+   "niveau": 3
+  },
+  {
+   "id": "desert--savane",
+   "a": "Désert",
+   "b": "Savane",
+   "categorie": "lieux",
+   "niveau": 2
+  },
+  {
+   "id": "chateau--palais",
+   "a": "Château",
+   "b": "Palais",
+   "categorie": "lieux",
+   "niveau": 3
+  },
+  {
+   "id": "eglise--cathedrale",
+   "a": "Église",
+   "b": "Cathédrale",
+   "categorie": "lieux",
+   "niveau": 3
+  },
+  {
+   "id": "mairie--prefecture",
+   "a": "Mairie",
+   "b": "Préfecture",
+   "categorie": "lieux",
+   "niveau": 3
+  },
+  {
+   "id": "ecole--college",
+   "a": "École",
+   "b": "Collège",
+   "categorie": "lieux",
+   "niveau": 3
+  },
+  {
+   "id": "hopital--clinique",
+   "a": "Hôpital",
+   "b": "Clinique",
+   "categorie": "lieux",
+   "niveau": 3
+  },
+  {
+   "id": "boulangerie--patisserie",
+   "a": "Boulangerie",
+   "b": "Pâtisserie",
+   "categorie": "lieux",
+   "niveau": 2
+  },
+  {
+   "id": "boucherie--charcuterie",
+   "a": "Boucherie",
+   "b": "Charcuterie",
+   "categorie": "lieux",
+   "niveau": 3
+  },
+  {
+   "id": "supermarche--marche",
+   "a": "Supermarché",
+   "b": "Marché",
+   "categorie": "lieux",
+   "niveau": 2
+  },
+  {
+   "id": "cinema--theatre",
+   "a": "Cinéma",
+   "b": "Théâtre",
+   "categorie": "lieux",
+   "niveau": 2
+  },
+  {
+   "id": "musee--galerie-d-art",
+   "a": "Musée",
+   "b": "Galerie d'art",
+   "categorie": "lieux",
+   "niveau": 3
+  },
+  {
+   "id": "restaurant--brasserie",
+   "a": "Restaurant",
+   "b": "Brasserie",
+   "categorie": "lieux",
+   "niveau": 3
+  },
+  {
+   "id": "hotel--auberge",
+   "a": "Hôtel",
+   "b": "Auberge",
+   "categorie": "lieux",
+   "niveau": 3
+  },
+  {
+   "id": "gare--aeroport",
+   "a": "Gare",
+   "b": "Aéroport",
+   "categorie": "lieux",
+   "niveau": 2
+  },
+  {
+   "id": "stade--gymnase",
+   "a": "Stade",
+   "b": "Gymnase",
+   "categorie": "lieux",
+   "niveau": 2
+  },
+  {
+   "id": "bibliotheque--librairie",
+   "a": "Bibliothèque",
+   "b": "Librairie",
+   "categorie": "lieux",
+   "niveau": 2
+  },
+  {
+   "id": "banque--bureau-de-poste",
+   "a": "Banque",
+   "b": "Bureau de poste",
+   "categorie": "lieux",
+   "niveau": 2
+  },
+  {
+   "id": "zoo--aquarium",
+   "a": "Zoo",
+   "b": "Aquarium",
+   "categorie": "lieux",
+   "niveau": 2
+  },
+  {
+   "id": "cirque--fete-foraine",
+   "a": "Cirque",
+   "b": "Fête foraine",
+   "categorie": "lieux",
+   "niveau": 2
+  },
+  {
+   "id": "cave--grenier",
+   "a": "Cave",
+   "b": "Grenier",
+   "categorie": "lieux",
+   "niveau": 2
+  },
+  {
+   "id": "salon--salle-a-manger",
+   "a": "Salon",
+   "b": "Salle à manger",
+   "categorie": "lieux",
+   "niveau": 3
+  },
+  {
+   "id": "cuisine--salle-de-bains",
+   "a": "Cuisine",
+   "b": "Salle de bains",
+   "categorie": "lieux",
+   "niveau": 1
+  },
+  {
+   "id": "voiture--camion",
+   "a": "Voiture",
+   "b": "Camion",
+   "categorie": "transports",
+   "niveau": 2
+  },
+  {
+   "id": "velo--trottinette",
+   "a": "Vélo",
+   "b": "Trottinette",
+   "categorie": "transports",
+   "niveau": 2
+  },
+  {
+   "id": "moto--scooter",
+   "a": "Moto",
+   "b": "Scooter",
+   "categorie": "transports",
+   "niveau": 3
+  },
+  {
+   "id": "bus--tramway",
+   "a": "Bus",
+   "b": "Tramway",
+   "categorie": "transports",
+   "niveau": 2
+  },
+  {
+   "id": "train--metro",
+   "a": "Train",
+   "b": "Métro",
+   "categorie": "transports",
+   "niveau": 2
+  },
+  {
+   "id": "avion--helicoptere",
+   "a": "Avion",
+   "b": "Hélicoptère",
+   "categorie": "transports",
+   "niveau": 2
+  },
+  {
+   "id": "bateau--sous-marin",
+   "a": "Bateau",
+   "b": "Sous-marin",
+   "categorie": "transports",
+   "niveau": 2
+  },
+  {
+   "id": "voilier--yacht",
+   "a": "Voilier",
+   "b": "Yacht",
+   "categorie": "transports",
+   "niveau": 3
+  },
+  {
+   "id": "taxi--ambulance",
+   "a": "Taxi",
+   "b": "Ambulance",
+   "categorie": "transports",
+   "niveau": 2
+  },
+  {
+   "id": "tracteur--bulldozer",
+   "a": "Tracteur",
+   "b": "Bulldozer",
+   "categorie": "transports",
+   "niveau": 2
+  },
+  {
+   "id": "fusee--satellite",
+   "a": "Fusée",
+   "b": "Satellite",
+   "categorie": "transports",
+   "niveau": 2
+  },
+  {
+   "id": "camping-car--caravane",
+   "a": "Camping-car",
+   "b": "Caravane",
+   "categorie": "transports",
+   "niveau": 3
+  },
+  {
+   "id": "medecin--infirmier",
+   "a": "Médecin",
+   "b": "Infirmier",
+   "categorie": "metiers",
+   "niveau": 2
+  },
+  {
+   "id": "dentiste--veterinaire",
+   "a": "Dentiste",
+   "b": "Vétérinaire",
+   "categorie": "metiers",
+   "niveau": 2
+  },
+  {
+   "id": "pompier--policier",
+   "a": "Pompier",
+   "b": "Policier",
+   "categorie": "metiers",
+   "niveau": 2
+  },
+  {
+   "id": "boulanger--patissier",
+   "a": "Boulanger",
+   "b": "Pâtissier",
+   "categorie": "metiers",
+   "niveau": 2
+  },
+  {
+   "id": "cuisinier--serveur",
+   "a": "Cuisinier",
+   "b": "Serveur",
+   "categorie": "metiers",
+   "niveau": 2
+  },
+  {
+   "id": "professeur--instituteur",
+   "a": "Professeur",
+   "b": "Instituteur",
+   "categorie": "metiers",
+   "niveau": 3
+  },
+  {
+   "id": "avocat--juge",
+   "a": "Avocat",
+   "b": "Juge",
+   "categorie": "metiers",
+   "niveau": 2
+  },
+  {
+   "id": "facteur--livreur",
+   "a": "Facteur",
+   "b": "Livreur",
+   "categorie": "metiers",
+   "niveau": 3
+  },
+  {
+   "id": "plombier--electricien",
+   "a": "Plombier",
+   "b": "Électricien",
+   "categorie": "metiers",
+   "niveau": 2
+  },
+  {
+   "id": "macon--charpentier",
+   "a": "Maçon",
+   "b": "Charpentier",
+   "categorie": "metiers",
+   "niveau": 3
+  },
+  {
+   "id": "coiffeur--barbier",
+   "a": "Coiffeur",
+   "b": "Barbier",
+   "categorie": "metiers",
+   "niveau": 3
+  },
+  {
+   "id": "pilote--hotesse-de-l-air",
+   "a": "Pilote",
+   "b": "Hôtesse de l'air",
+   "categorie": "metiers",
+   "niveau": 2
+  },
+  {
+   "id": "chanteur--acteur",
+   "a": "Chanteur",
+   "b": "Acteur",
+   "categorie": "metiers",
+   "niveau": 2
+  },
+  {
+   "id": "peintre--sculpteur",
+   "a": "Peintre",
+   "b": "Sculpteur",
+   "categorie": "metiers",
+   "niveau": 2
+  },
+  {
+   "id": "ecrivain--journaliste",
+   "a": "Écrivain",
+   "b": "Journaliste",
+   "categorie": "metiers",
+   "niveau": 2
+  },
+  {
+   "id": "boucher--poissonnier",
+   "a": "Boucher",
+   "b": "Poissonnier",
+   "categorie": "metiers",
+   "niveau": 3
+  },
+  {
+   "id": "fermier--jardinier",
+   "a": "Fermier",
+   "b": "Jardinier",
+   "categorie": "metiers",
+   "niveau": 2
+  },
+  {
+   "id": "astronaute--pilote-de-chasse",
+   "a": "Astronaute",
+   "b": "Pilote de chasse",
+   "categorie": "metiers",
+   "niveau": 3
+  },
+  {
+   "id": "magicien--clown",
+   "a": "Magicien",
+   "b": "Clown",
+   "categorie": "metiers",
+   "niveau": 2
+  },
+  {
+   "id": "football--rugby",
+   "a": "Football",
+   "b": "Rugby",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "tennis--badminton",
+   "a": "Tennis",
+   "b": "Badminton",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "tennis--ping-pong",
+   "a": "Tennis",
+   "b": "Ping-pong",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "basket--handball",
+   "a": "Basket",
+   "b": "Handball",
+   "categorie": "loisirs",
+   "niveau": 3
+  },
+  {
+   "id": "natation--plongee",
+   "a": "Natation",
+   "b": "Plongée",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "ski--snowboard",
+   "a": "Ski",
+   "b": "Snowboard",
+   "categorie": "loisirs",
+   "niveau": 3
+  },
+  {
+   "id": "patinage--hockey",
+   "a": "Patinage",
+   "b": "Hockey",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "judo--karate",
+   "a": "Judo",
+   "b": "Karaté",
+   "categorie": "loisirs",
+   "niveau": 3
+  },
+  {
+   "id": "boxe--lutte",
+   "a": "Boxe",
+   "b": "Lutte",
+   "categorie": "loisirs",
+   "niveau": 3
+  },
+  {
+   "id": "yoga--pilates",
+   "a": "Yoga",
+   "b": "Pilates",
+   "categorie": "loisirs",
+   "niveau": 3
+  },
+  {
+   "id": "course-a-pied--marche",
+   "a": "Course à pied",
+   "b": "Marche",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "golf--petanque",
+   "a": "Golf",
+   "b": "Pétanque",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "echecs--dames",
+   "a": "Échecs",
+   "b": "Dames",
+   "categorie": "loisirs",
+   "niveau": 3
+  },
+  {
+   "id": "poker--belote",
+   "a": "Poker",
+   "b": "Belote",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "monopoly--cluedo",
+   "a": "Monopoly",
+   "b": "Cluedo",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "guitare--violon",
+   "a": "Guitare",
+   "b": "Violon",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "piano--orgue",
+   "a": "Piano",
+   "b": "Orgue",
+   "categorie": "loisirs",
+   "niveau": 3
+  },
+  {
+   "id": "batterie--tambour",
+   "a": "Batterie",
+   "b": "Tambour",
+   "categorie": "loisirs",
+   "niveau": 3
+  },
+  {
+   "id": "flute--clarinette",
+   "a": "Flûte",
+   "b": "Clarinette",
+   "categorie": "loisirs",
+   "niveau": 3
+  },
+  {
+   "id": "film--serie",
+   "a": "Film",
+   "b": "Série",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "roman--bande-dessinee",
+   "a": "Roman",
+   "b": "Bande dessinée",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "theatre--opera",
+   "a": "Théâtre",
+   "b": "Opéra",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "photo--peinture",
+   "a": "Photo",
+   "b": "Peinture",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "danse--gymnastique",
+   "a": "Danse",
+   "b": "Gymnastique",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "peche--chasse",
+   "a": "Pêche",
+   "b": "Chasse",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "randonnee--escalade",
+   "a": "Randonnée",
+   "b": "Escalade",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "camping--pique-nique",
+   "a": "Camping",
+   "b": "Pique-nique",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "cerf-volant--parapente",
+   "a": "Cerf-volant",
+   "b": "Parapente",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "karaoke--concert",
+   "a": "Karaoké",
+   "b": "Concert",
+   "categorie": "loisirs",
+   "niveau": 2
+  },
+  {
+   "id": "soleil--etoile",
+   "a": "Soleil",
+   "b": "Étoile",
+   "categorie": "nature",
+   "niveau": 2
+  },
+  {
+   "id": "nuage--brouillard",
+   "a": "Nuage",
+   "b": "Brouillard",
+   "categorie": "nature",
+   "niveau": 2
+  },
+  {
+   "id": "pluie--neige",
+   "a": "Pluie",
+   "b": "Neige",
+   "categorie": "nature",
+   "niveau": 1
+  },
+  {
+   "id": "orage--tempete",
+   "a": "Orage",
+   "b": "Tempête",
+   "categorie": "nature",
+   "niveau": 3
+  },
+  {
+   "id": "vent--tornade",
+   "a": "Vent",
+   "b": "Tornade",
+   "categorie": "nature",
+   "niveau": 2
+  },
+  {
+   "id": "rose--tulipe",
+   "a": "Rose",
+   "b": "Tulipe",
+   "categorie": "nature",
+   "niveau": 2
+  },
+  {
+   "id": "marguerite--paquerette",
+   "a": "Marguerite",
+   "b": "Pâquerette",
+   "categorie": "nature",
+   "niveau": 3
+  },
+  {
+   "id": "chene--hetre",
+   "a": "Chêne",
+   "b": "Hêtre",
+   "categorie": "nature",
+   "niveau": 3
+  },
+  {
+   "id": "sapin--pin",
+   "a": "Sapin",
+   "b": "Pin",
+   "categorie": "nature",
+   "niveau": 3
+  },
+  {
+   "id": "herbe--mousse",
+   "a": "Herbe",
+   "b": "Mousse",
+   "categorie": "nature",
+   "niveau": 2
+  },
+  {
+   "id": "caillou--rocher",
+   "a": "Caillou",
+   "b": "Rocher",
+   "categorie": "nature",
+   "niveau": 3
+  },
+  {
+   "id": "sable--terre",
+   "a": "Sable",
+   "b": "Terre",
+   "categorie": "nature",
+   "niveau": 2
+  },
+  {
+   "id": "volcan--geyser",
+   "a": "Volcan",
+   "b": "Geyser",
+   "categorie": "nature",
+   "niveau": 3
+  },
+  {
+   "id": "cascade--torrent",
+   "a": "Cascade",
+   "b": "Torrent",
+   "categorie": "nature",
+   "niveau": 3
+  },
+  {
+   "id": "feuille--petale",
+   "a": "Feuille",
+   "b": "Pétale",
+   "categorie": "nature",
+   "niveau": 2
+  },
+  {
+   "id": "arbre--buisson",
+   "a": "Arbre",
+   "b": "Buisson",
+   "categorie": "nature",
+   "niveau": 2
+  },
+  {
+   "id": "facebook--instagram",
+   "a": "Facebook",
+   "b": "Instagram",
+   "categorie": "culture",
+   "niveau": 2
+  },
+  {
+   "id": "whatsapp--messenger",
+   "a": "WhatsApp",
+   "b": "Messenger",
+   "categorie": "culture",
+   "niveau": 3
+  },
+  {
+   "id": "google--wikipedia",
+   "a": "Google",
+   "b": "Wikipédia",
+   "categorie": "culture",
+   "niveau": 2
+  },
+  {
+   "id": "youtube--netflix",
+   "a": "YouTube",
+   "b": "Netflix",
+   "categorie": "culture",
+   "niveau": 2
+  },
+  {
+   "id": "netflix--disney",
+   "a": "Netflix",
+   "b": "Disney+",
+   "categorie": "culture",
+   "niveau": 3
+  },
+  {
+   "id": "mario--sonic",
+   "a": "Mario",
+   "b": "Sonic",
+   "categorie": "culture",
+   "niveau": 2
+  },
+  {
+   "id": "pokemon--digimon",
+   "a": "Pokémon",
+   "b": "Digimon",
+   "categorie": "culture",
+   "niveau": 3
+  },
+  {
+   "id": "star-wars--star-trek",
+   "a": "Star Wars",
+   "b": "Star Trek",
+   "categorie": "culture",
+   "niveau": 3
+  },
+  {
+   "id": "asterix--tintin",
+   "a": "Astérix",
+   "b": "Tintin",
+   "categorie": "culture",
+   "niveau": 2
+  },
+  {
+   "id": "coca-cola--pepsi",
+   "a": "Coca-Cola",
+   "b": "Pepsi",
+   "categorie": "culture",
+   "niveau": 3
+  },
+  {
+   "id": "nike--adidas",
+   "a": "Nike",
+   "b": "Adidas",
+   "categorie": "culture",
+   "niveau": 3
+  },
+  {
+   "id": "iphone--samsung",
+   "a": "iPhone",
+   "b": "Samsung",
+   "categorie": "culture",
+   "niveau": 3
+  },
+  {
+   "id": "ikea--leroy-merlin",
+   "a": "IKEA",
+   "b": "Leroy Merlin",
+   "categorie": "culture",
+   "niveau": 2
+  },
+  {
+   "id": "mcdonald-s--burger-king",
+   "a": "McDonald's",
+   "b": "Burger King",
+   "categorie": "culture",
+   "niveau": 3
+  },
+  {
+   "id": "cendrillon--blanche-neige",
+   "a": "Cendrillon",
+   "b": "Blanche-Neige",
+   "categorie": "culture",
+   "niveau": 2
+  },
+  {
+   "id": "batman--superman",
+   "a": "Batman",
+   "b": "Superman",
+   "categorie": "culture",
+   "niveau": 2
+  },
+  {
+   "id": "titanic--avatar",
+   "a": "Titanic",
+   "b": "Avatar",
+   "categorie": "culture",
+   "niveau": 2
+  },
+  {
+   "id": "mickey--donald",
+   "a": "Mickey",
+   "b": "Donald",
+   "categorie": "culture",
+   "niveau": 2
+  },
+  {
+   "id": "tour-eiffel--arc-de-triomphe",
+   "a": "Tour Eiffel",
+   "b": "Arc de Triomphe",
+   "categorie": "culture",
+   "niveau": 2
+  },
+  {
+   "id": "louvre--versailles",
+   "a": "Louvre",
+   "b": "Versailles",
+   "categorie": "culture",
+   "niveau": 2
+  },
+  {
+   "id": "paris--marseille",
+   "a": "Paris",
+   "b": "Marseille",
+   "categorie": "culture",
+   "niveau": 2
+  },
+  {
+   "id": "napoleon--louis-xiv",
+   "a": "Napoléon",
+   "b": "Louis XIV",
+   "categorie": "culture",
+   "niveau": 3
+  },
+  {
+   "id": "anniversaire--mariage",
+   "a": "Anniversaire",
+   "b": "Mariage",
+   "categorie": "vie",
+   "niveau": 2
+  },
+  {
+   "id": "noel--paques",
+   "a": "Noël",
+   "b": "Pâques",
+   "categorie": "vie",
+   "niveau": 2
+  },
+  {
+   "id": "vacances--week-end",
+   "a": "Vacances",
+   "b": "Week-end",
+   "categorie": "vie",
+   "niveau": 2
+  },
+  {
+   "id": "cadeau--colis",
+   "a": "Cadeau",
+   "b": "Colis",
+   "categorie": "vie",
+   "niveau": 2
+  },
+  {
+   "id": "argent--carte-bancaire",
+   "a": "Argent",
+   "b": "Carte bancaire",
+   "categorie": "vie",
+   "niveau": 2
+  },
+  {
+   "id": "amour--amitie",
+   "a": "Amour",
+   "b": "Amitié",
+   "categorie": "vie",
+   "niveau": 2
+  },
+  {
+   "id": "peur--angoisse",
+   "a": "Peur",
+   "b": "Angoisse",
+   "categorie": "vie",
+   "niveau": 3
+  },
+  {
+   "id": "joie--bonheur",
+   "a": "Joie",
+   "b": "Bonheur",
+   "categorie": "vie",
+   "niveau": 3
+  },
+  {
+   "id": "colere--rage",
+   "a": "Colère",
+   "b": "Rage",
+   "categorie": "vie",
+   "niveau": 3
+  },
+  {
+   "id": "sieste--sommeil",
+   "a": "Sieste",
+   "b": "Sommeil",
+   "categorie": "vie",
+   "niveau": 2
+  },
+  {
+   "id": "reve--cauchemar",
+   "a": "Rêve",
+   "b": "Cauchemar",
+   "categorie": "vie",
+   "niveau": 2
+  },
+  {
+   "id": "mensonge--secret",
+   "a": "Mensonge",
+   "b": "Secret",
+   "categorie": "vie",
+   "niveau": 2
+  },
+  {
+   "id": "reunion--conference",
+   "a": "Réunion",
+   "b": "Conférence",
+   "categorie": "vie",
+   "niveau": 2
+  },
+  {
+   "id": "examen--concours",
+   "a": "Examen",
+   "b": "Concours",
+   "categorie": "vie",
+   "niveau": 3
+  },
+  {
+   "id": "dispute--debat",
+   "a": "Dispute",
+   "b": "Débat",
+   "categorie": "vie",
+   "niveau": 2
+  },
+  {
+   "id": "voyage--demenagement",
+   "a": "Voyage",
+   "b": "Déménagement",
+   "categorie": "vie",
+   "niveau": 2
+  },
+  {
+   "id": "rire--sourire",
+   "a": "Rire",
+   "b": "Sourire",
+   "categorie": "vie",
+   "niveau": 2
+  },
+  {
+   "id": "calin--bisou",
+   "a": "Câlin",
+   "b": "Bisou",
+   "categorie": "vie",
+   "niveau": 2
+  }
+ ]
+}
