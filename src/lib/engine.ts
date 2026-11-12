@@ -166,7 +166,7 @@ export function validateConfig(c: GameConfig): string | null {
   }
   if (c.civils < 1) return 'Il faut au moins un civil.';
   if (c.spies + c.whites < 1) return 'Il faut au moins un espion ou un Mr White.';
-  if (c.civils <= c.spies + c.whites) {
+  if (c.civils < c.spies + c.whites) {
     return "Il faut plus de civils que d'espions et de Mr White réunis, sinon les méchants ont déjà gagné.";
   }
   return null;
