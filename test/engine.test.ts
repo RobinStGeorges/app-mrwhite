@@ -53,9 +53,15 @@ describe('configuration', () => {
     expect(validateConfig(cfg(0, 2, 1))).toMatch(/au moins un civil/);
     expect(validateConfig(cfg(4, 0, 0))).toMatch(/espion ou un Mr White/);
   });
-  test('les civils doivent être strictement plus nombreux que les méchants', () => {
-    expect(validateConfig(cfg(2, 1, 1))).toMatch(/plus de civils/);
-    expect(validateConfig(cfg(1, 1, 1))).toMatch(/plus de civils/);
+  test('l\'égalité civils / méchants est permise', () => {
+    expect(validateConfig(cfg(2, 1, 1))).toBeNull();
+    expect(validateConfig(cfg(2, 2, 0))).toBeNull();
+    expect(validateConfig(cfg(3, 2, 1))).toBeNull();
+  });
+  test('plus de méchants que de civils est refusé', () => {
+    expect(validateConfig(cfg(1, 1, 1))).toMatch(/plus d'espions et de Mr White que de civils/);
+    expect(validateConfig(cfg(2, 2, 1))).toMatch(/plus d'espions et de Mr White que de civils/);
+    expect(validateConfig(cfg(2, 3, 0))).toMatch(/plus d'espions et de Mr White que de civils/);
   });
   test('valeurs non entières refusées', () => {
     expect(validateConfig({ total: 5, civils: 2.5, spies: 1, whites: 1.5 })).toBe('Valeurs invalides.');
@@ -215,6 +221,32 @@ describe('parties complètes', () => {
     for (const p of s.players) {
       expect(s.result!.points[p.key]).toBe(p.role === 'civil' ? 0 : 5);
     }
+  });
+
+  test('départ à égalité (2 civils, 1 espion, 1 Mr White) : jouable, un civil éliminé donne la victoire aux méchants', () => {
+    let s = setup(cfg(2, 1, 1));
+    expect(s.phase).toBe('play'); // la partie démarre normalement
+    s = continueAfterReveal(vote(s, byRole(s, 'civil')[0].key)); // 1 civil contre 2 méchants
+    expect(s.result?.winner).toBe('evil');
+    for (const p of s.players) expect(s.result!.points[p.key]).toBe(p.role === 'civil' ? 0 : 5);
+  });
+
+  test('départ à égalité : un espion éliminé laisse la partie continuer (2 civils contre 1 Mr White)', () => {
+    let s = setup(cfg(2, 1, 1));
+    s = continueAfterReveal(vote(s, byRole(s, 'spy')[0].key));
+    expect(s.phase).toBe('play');
+    expect(alivePlayers(s)).toHaveLength(3);
+    // puis Mr White éliminé et raté : les civils gagnent
+    s = continueAfterReveal(submitGuess(vote(s, byRole(s, 'white')[0].key), 'Pizza'));
+    expect(s.result?.winner).toBe('civils');
+    expect(Object.values(s.result!.points).filter((x) => x === 10)).toHaveLength(2);
+  });
+
+  test('départ à égalité : Mr White éliminé qui devine le mot gagne seul', () => {
+    let s = setup(cfg(2, 1, 1));
+    s = submitGuess(vote(s, byRole(s, 'white')[0].key), s.pair.civil);
+    s = continueAfterReveal(s);
+    expect(s.result?.winner).toBe('white');
   });
 
   test('méchant éliminé plus tôt : 0 point même si son camp gagne', () => {

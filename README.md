@@ -25,7 +25,7 @@ proche, Mr White : aucun). On discute, on vote, on élimine. Voir « Rappel des 
 
 Les conditions de victoire sont vérifiées après chaque élimination.
 Configuration refusée si : somme des rôles ≠ nombre de joueurs, moins de 3 joueurs, pas de civil,
-pas de méchant, ou civils pas **strictement** plus nombreux que les méchants (sinon victoire immédiate).
+pas de méchant, ou **plus de méchants que de civils** (l'égalité, par exemple 2 civils + 1 espion + 1 Mr White, est permise).
 
 Les mots ne sont **jamais** révélés pendant la partie (ni pour un civil ou un espion éliminé, ni
 après une proposition ratée de Mr White) : sinon Mr White pourrait les récupérer.

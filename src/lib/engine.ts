@@ -166,7 +166,12 @@ export function validateConfig(c: GameConfig): string | null {
   }
   if (c.civils < 1) return 'Il faut au moins un civil.';
   if (c.spies + c.whites < 1) return 'Il faut au moins un espion ou un Mr White.';
-
+  // L'égalité est permise (ex. 2 civils, 1 espion, 1 Mr White) : les conditions de victoire
+  // ne sont vérifiées qu'après chaque élimination. En revanche, plus de méchants que de civils
+  // rendrait la partie injouable d'emblée.
+  if (c.spies + c.whites > c.civils) {
+    return "Il y a plus d'espions et de Mr White que de civils : la partie serait perdue d'avance pour les civils.";
+  }
   return null;
 }
 
